@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="links mb-2">
+              <a href="#red" class="active" onclick="tabClick(this); return false;">Red</a>
+              <a href="#blue" onclick="tabClick(this); return false;">Blue</a>
+              <a href="#green" onclick="tabClick(this); return false;">Green</a>
+              <a href="#black" onclick="tabClick(this); return false;">Black</a>
+              <a href="#yellow" onclick="tabClick(this); return false;">Yellow</a>
+              <a href="#purple" onclick="tabClick(this); return false;">Purple</a>
+              <a href="#hokies" onclick="tabClick(this); return false;">Hokies</a>
+            </div>
+          
+            <div class="content" style="margin-top:20px;">
+              <div data-tab-id="#red" class="active">Red content</div>
+              <div data-tab-id="#blue">Blue content</div>
+              <div data-tab-id="#green">Green content</div>
+              <div data-tab-id="#black">Black content</div>
+              <div data-tab-id="#yellow">Yellow content</div>
+              <div data-tab-id="#purple">Purple content</div>
+              <div data-tab-id="#hokies">Hokies content</div>
+            </div>
+            
+            <div class="debug mt-3" style="margin-top:20px;"></div>
+          </div>        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
